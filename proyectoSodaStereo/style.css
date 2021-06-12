@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap");
+* {
+  font-family: "Lexend", sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242323;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 14px 14px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.menu li :hover {
+  color: yellow;
+}
+
+.titulo {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+}
+
+.galeria-fotos {
+  height: 400px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.galeria-fotos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.discos {
+  margin: 20px;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.discos a {
+  text-decoration: none;
+}
+
+.disco {
+  display: inline-block;
+  margin: 7px;
+  padding: 14px 14px;
+}
+
+.disco img {
+  width: 317px;
+  height: 313px;
+}
+
+.disco h3,
+p {
+  margin: 2px;
+}
+
+.disco h3:hover {
+  color: yellow;
+}
+
+.contacto_grupo {
+  height: 100px;
+  width: 100%;
+}
+
+.contacto_grupo h1 {
+  text-align: center;
+}
+
+.contacto_grupo ul {
+  padding: 0;
+  text-align: center;
+}
+
+.contacto_grupo li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 7px;
+  font-size: 30px;
+}
+
+.contacto_grupo li :hover {
+  color: yellow;
+}
+
+.contacto_integrantes {
+  height: 380px;
+  width: 100%;
+}
+
+.integrantes {
+  height: 380px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.integrante {
+  display: inline-block;
+  height: 100%;
+  width: 265px;
+  margin-right: 20px;
+}
+
+.integrante .imagen_integrante {
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.integrante .menu_contacto {
+  height: 40px;
+  width: 100%;
+  background-color: #242323;
+}
+
+.menu_contacto ul {
+  padding: 0;
+  text-align: center;
+}
+
+.menu_contacto li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 7px;
+  font-size: 30px;
+}
+
+.menu_contacto li :hover {
+  color: yellow;
+}
+
+.integrante h2 {
+  margin: 6px;
+}
+
+#charly .imagen_integrante {
+  background-image: url(img/charly-alberti-1.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#gustavo .imagen_integrante {
+  background-image: url(img/GustavoCerati.jpg);
+  background-size: cover;
+  background-position: center right;
+}
+
+#zeta .imagen_integrante {
+  background-image: url(img/zeta.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  filter: grayscale(100);
+}
+
+.formulario_contacto {
+  /* background-color: blue; */
+  width: 100%;
+  height: 340px;
+  text-align: center;
+}
+
+.formulario {
+  /* background-color: red; */
+  display: inline-block;
+  height: 550px;
+  width: 880px;
+}
+
+.formulario input {
+  color: yellow;
+  background-color: black;
+  border: 1px solid yellow;
+  font-size: 20px;
+}
+
+.contacto-input {
+  margin-bottom: 15px;
+}
+
+#form .comentario > textarea {
+  color: yellow;
+  background-color: black;
+  border: 1px solid yellow;
+  font-size: 18px;
+}
+
+.alertas {
+  color: yellow;
+  font-weight: bold;
+}
+
+#info_contacto{
+  display: none;
+}
+
+
+.info {
+  width: 100%;
+  height: 400px;
+}
+
+.info .info-disco {
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.info-disco img {
+  margin: 30px;
+  float: left;
+}
+
+.info-disco .lista-datos {
+  margin-top: 10px;
+  height: 350px;
+  width: 300px;
+  float: left;
+}
+
+.lista-datos h2 {
+  text-align: center;
+}
+
+.lista-datos ul > li {
+  margin-bottom: 15px;
+}
+
+.lista-canciones {
+  /* background-color: blue; */
+  height: 400px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lista-canciones table,
+tr,
+th,
+td {
+  margin: 0 auto;
+}
+
+.lista-canciones h2,
+td.duracion-cancion {
+  text-align: center;
+}

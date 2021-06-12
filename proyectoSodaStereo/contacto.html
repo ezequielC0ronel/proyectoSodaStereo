@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/83da4bfd58.js" crossorigin="anonymous"></script>
+    <script src="chkFormulario.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="discos.html">Discos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="contenido">
+            <h1 class="titulo">Contacto</h1>
+
+            <div class="contacto_grupo">
+                <h1>Soda Stereo</h1>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/sodastereo/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/sodastereo" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/sodastereo/" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp?si=tK6XgvEKRxOMzOImbDjdJw"
+                            target="_blank">
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/sodastereo" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+
+            <div class="contacto_integrantes">
+
+                <div class="integrantes">
+
+                    <div id="charly" class="integrante">
+                        <div class="imagen_integrante">
+                        </div>
+                        <h2>Charly Alberti</h2>
+                        <div class="menu_contacto">
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/charlyalberti/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/CharlyAlberti" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/CharlyAlberti/" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div id="gustavo" class="integrante">
+                        <div class="imagen_integrante">
+                        </div>
+                        <h2>Gustavo Cerati</h2>
+                        <div class="menu_contacto">
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/cerati/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/cerati" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/gustavocerati/" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="zeta" class="integrante">
+                        <div class="imagen_integrante">
+                        </div>
+                        <h2>Zeta Bosio</h2>
+                        <div class="menu_contacto">
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/sodastereo/" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/sodastereo" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/sodastereo/" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h1 class="titulo">Recibí mas info</h1>
+            <div class="formulario_contacto">
+                <div class="formulario" id="formulario">
+
+                    <form action="" method="POST" id="form" name="form" autocomplete="off">
+                        <p id="estado_nombre" class="alertas"></p>
+                        <div id="nombre-input" class="contacto-input">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+
+                        <p id="estado_correo" class="alertas"></p>
+                        <div id="correo-input" class="contacto-input">
+                            <label for="correo">Tu correo</label>
+                            <input type="text" name="correo" id="correo" placeholder="Ingresa tu correo">
+                        </div>
+
+                        <h2>Qué informacion queres recibir en tu mail?</h2>
+
+                        <p id="estado_info" class="alertas"></p>
+                        <div id="check1" class="contacto-input">
+                            <input type="checkbox" name="info_mail" id="noticia" value="noticias">
+                            <label for="noticia">Noticias</label>
+
+                            <input type="checkbox" name="info_mail" id="productos" value="productos">
+                            <label for="productos">Remeras/Discos</label>
+
+                            <input type="checkbox" name="info_mail" id="entradas-recitales" value="entradas-recitales">
+                            <label for="entradas-recitales">Entradas/Nuevos recitales</label>
+                        </div>
+
+                        <h2>Qué contenido te gustaria ver en la pagina?</h2>
+                        <p id="estado_comentario" class="alertas"></p>
+                        <div class="comentario">
+                            <textarea style="resize: none;" name="comentario" id="comentario" cols="40" rows="10"
+                                placeholder="Dejanos un comentario!"></textarea>
+                        </div>
+
+                        <div class="boton">
+                            <input type="button" value="Enviar" onclick="verificarFormulario()">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div id="info_contacto">
+
+                </div>
+            </div>
+
+
+        </div>
+</body>
+
+</html>
